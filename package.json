@@ -5,7 +5,9 @@
   "scripts": {
     "test": "npx playwright test",
     "ui": "npx playwright test --ui",
-    "allureFile": "npx allure awesome ./allure-results --single-file"
+    "allureFile": "npx allure awesome ./allure-results --single-file",
+    "test:api": "playwright test --grep @API"
+    
   },
   "keywords": [],
   "author": "Alin04ka",
